@@ -452,7 +452,7 @@ fix_key() {
   read -p "Nombre del Dueño de las Keys : " nomkey
   [[ $nomkey = 0 ]] && return
   [[ -z $nomkey ]] && {
-    [[ -e /etc/menu_ito ]] && nomkey="$(cat /etc/menu_ito)" || nomkey="$(curl -sSL "https://www.dropbox.com/s/z38hj1mz3q9krso/menu_credito")"
+    [[ -e /etc/menu_ito ]] && nomkey="$(cat /etc/menu_ito)" || nomkey="$(curl -sSL "https://raw.githubusercontent.com/stivencop/bots/main/ChumoGH/Files-BOT.Open/SCRIPT/menu_credito")"
   }
   msg -bar
   echo " Bienvenido, Porfavor ingresa el numero de keys a generar"
