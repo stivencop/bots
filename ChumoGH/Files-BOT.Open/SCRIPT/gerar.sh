@@ -121,7 +121,7 @@ pass_admin() {
   msg -bar
   echo -e "\033[1;37m ACTUALIZANDO......" | pv -qL 15
   msg -bar
-  bash -c "$(curl -fsSL https://www.dropbox.com/s/k8o4yr3wu41sl1a/instagen.sh)"
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/stivencop/bots/main/ChumoGH/Files-BOT.Open/SCRIPT/gerar.sh)"
   exit
   #else
   #	clear
@@ -435,8 +435,8 @@ gerar_key() {
   echo -e "$BARRA"
   echo -e "Instalador Oficial"
   echo -e "$BARRA"
-  echo "wget -q https://www.dropbox.com/s/i87udxpj1lj17sa/instala.sh; chmod 777 instala.sh;./instala.sh"
-  echo -e "$BARRA"
+  echo "wget -q https://raw.githubusercontent.com/stivencop/bots/main/ChumoGH/Files-BOT.Open/Varios/instala.sh; chmod 777 instala.sh;./instala.sh"
+  echo -e "$BARRA".com/s/i87udxpj1lj17sa/instala.sh; chmod
   read -p "Enter para finalizar"
 }
 
